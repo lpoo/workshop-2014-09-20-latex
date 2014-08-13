@@ -1,0 +1,7 @@
+markdown        : kramdown
+kramdown        :
+  entity_output : as_input # &mdash; is output as &mdash;
+  smart_quotes  : [39, 39, 34, 34] # decimal for left/right single/double quotes
+website         : "https://www.lpoo.ime.unicamp.br"
+contact         : "lpoo@ime.unicamp.br"
+github_url      : "https://github.com/lpoo"

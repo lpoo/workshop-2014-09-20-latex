@@ -1,0 +1,73 @@
+---
+layout: workshop
+address: Rua Sérgio Buarque de Holanda, 651 – Cidade Universitária "Zeferino Vaz" – Distr. Barão Geraldo – Campinas – São Paulo – Brasil
+country: Brazil
+humandate: 20 de Setembro de 2014
+humantime: 9:00- 18:00
+startdate: 2014-09-20
+enddate: 2014-09-20
+latlng: -22.815407,-47.067245
+registration: open
+instructor: ["Raniere Silva", "Abel Siqueira"]
+helper: [""]
+---
+
+<!--
+    This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
+-->
+{% if page.eventbrite %}
+<iframe src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" scrolling="auto"></iframe>
+{% endif %}
+
+<h2>Informações Gerais</h2>
+
+<p>
+  <strong>Objetivos:</strong>
+  <ul>
+    <li>Ensinar conceitos básicos de LaTeX para aqueles que nunca utilizaram.</li>
+    <li>Abordar o <a href="http://github.com/lpoo/modelo_tese_imecc/">modelo de dissertações e teses do IMECC</a>.</li>
+    <li>Ensinar conceitos básicos de controle de versão utilizando Git <strong>e como utilizá-los para melhor aproveitamento do modelo de dissertações e teses</strong>.</li>
+    <li>Apresentar o <a href="https://www.writelatex.com/">writeLaTeX</a> <strong>e mostrar como utilizá-lo com o modelo de dissertações e teses</strong>.</li>
+  </ul>
+</p>
+
+<p>
+  <strong>Público alvo:</strong> a alunos da pós-graduação do Instituto de
+  Matemática, Estatística e Computação Científica. <strong>Qualquer pessoa
+  interessada em um dos objetivos anteriores pode participar do
+  workshop.</strong>
+</p>
+
+{% if page.latlng %}
+<p>
+  <strong>Onde:</strong>
+  {{ page.address }}.
+  Direções podem ser obtidas no
+  <a href="//www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
+  ou
+  <a href="//maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.
+</p>
+{% endif %}
+
+<p>
+  <strong>Requisitos:</strong>
+  <ol>
+    <li>Realizar a inscrição no workshop. <strong>As inscrições serão abertas no
+        início de Setembro.</strong></li>
+    <li>Trazer seu notebook com alguns softwares instalados. <strong>A lista dos
+        softwares será disponibilizada no início de Setembro.</strong></li>
+  </ol>
+</p>
+
+<p>
+  Dúvidas devem ser encaminhadas por email para
+  <a href='mailto:{{site.contact}}'>{{site.contact}}</a>.
+</p>
+
+<hr/>
+
+<h2>Cronograma</h2>
+
+<p><strong>Será disponibilizado no início de Setembro.</strong>
+
+<hr/>
