@@ -10,13 +10,15 @@ latlng: -22.817387,-47.06843
 registration: open
 instructor: ["Raniere Silva", "Abel Siqueira"]
 helper: [""]
+eventbrite: 12894581039
 ---
 
 <!--
     This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header.
 -->
 {% if page.eventbrite %}
-<iframe src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" scrolling="auto"></iframe>
+<iframe
+  src="//www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" height="209px" scrolling="auto"></iframe>
 {% endif %}
 
 <h2>Informações Gerais</h2>
