@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[top=3cm,bottom=3cm,left=2cm,right=2cm]{geometry}
+\title{Meu primeiro documento \LaTeX}
+\author{Raniere Silva}
+\begin{document}
+\maketitle
+
+\LaTeX \ é um conjunto de macros para \TeX, um poderoso sistema tipográfico
+de código livre.
+
+\section{Equações}
+
+Exemplo de equação inline: $a x^2 + b x + c = 0$.
+
+Exemplo de equação display: \[x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2 a}.\]
+
+Exemplo de equação display com numeração:
+\begin{equation}
+x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2 a}.
+\label{formula-de-baskara}
+\end{equation}
+
+A equação~(\ref{formula-de-baskara}) é conhecida por Fórmula de Baskara.
+
+\end{document}
