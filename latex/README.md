@@ -9,7 +9,9 @@ prevista de 10 minutos que incluem:
 
 ## Módulo 1: Cabeçalho
 
-Utilizando o arquivo [modulo1.tex](modulo1.tex):
+Utilizando o arquivo `modulo1.tex`
+([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo1.tex)
+ou [writeLaTeX](https://www.writelatex.com/assignments/159nggpxygd)):
 
 - Remova `%` existentes.
 - Compile seu primeiro documento utilizando
@@ -38,7 +40,9 @@ Utilizando o arquivo [modulo1.tex](modulo1.tex):
 
 ## Módulo 2: Pacotes
 
-Utilizando o arquivo [modulo2.tex](modulo2.tex):
+Utilizando o arquivo `modulo2.tex`
+([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo2.tex)
+ou [writeLaTeX](https://www.writelatex.com/assignments/155kszxdxnp)):
 
 - Compile e visualize o documento.
 
@@ -94,7 +98,9 @@ documento como fazer para
 
 ## Módulo 3: Títulos e Arquivos
 
-Utilizando o arquivo [modulo3.tex](modulo3.tex):
+Utilizando o arquivo `modulo3.tex`
+([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo3.tex)
+ou [writeLaTeX](https://www.writelatex.com/assignments/158bvwxrfzp)):
 
 - Crie um arquivo chamado `modulo31.tex` cuja primeira linha é
 
@@ -144,7 +150,9 @@ Utilizando o arquivo [modulo3.tex](modulo3.tex):
 
 ## Módulo 4: Equações
 
-Utilizando o arquivo [modulo4.tex](modulo4.tex):
+Utilizando o arquivo `modulo4.tex`
+([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo4.tex)
+ou [writeLaTeX](https://www.writelatex.com/assignments/157tvrvtktr)):
 
 - Adicione a equação de segundo grau na sua forma canônica como o exemplo de uma
   equação inline.
