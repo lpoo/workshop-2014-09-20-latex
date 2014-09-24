@@ -1,5 +1,8 @@
-# Introdução ao LaTeX
-
+---
+layout: lesson
+root: ..
+title: Introdução ao LaTeX
+---
 Essa aula tem duração prevista de uma hora cobrindo seis "módulos" com duração
 prevista de 10 minutos que incluem:
 
@@ -10,7 +13,7 @@ prevista de 10 minutos que incluem:
 ## Módulo 1: Cabeçalho
 
 Utilizando o arquivo `modulo1.tex`
-([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo1.tex)
+([download aqui](modulo1.tex)
 ou [writeLaTeX](https://www.writelatex.com/assignments/159nggpxygd)):
 
 - Remova `%` existentes.
@@ -41,7 +44,7 @@ ou [writeLaTeX](https://www.writelatex.com/assignments/159nggpxygd)):
 ## Módulo 2: Pacotes
 
 Utilizando o arquivo `modulo2.tex`
-([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo2.tex)
+([download aqui](modulo2.tex)
 ou [writeLaTeX](https://www.writelatex.com/assignments/155kszxdxnp)):
 
 - Compile e visualize o documento.
@@ -99,7 +102,7 @@ documento como fazer para
 ## Módulo 3: Títulos e Arquivos
 
 Utilizando o arquivo `modulo3.tex`
-([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo3.tex)
+([download aqui](modulo3.tex)
 ou [writeLaTeX](https://www.writelatex.com/assignments/158bvwxrfzp)):
 
 - Crie um arquivo chamado `modulo31.tex` cuja primeira linha é
@@ -151,7 +154,7 @@ ou [writeLaTeX](https://www.writelatex.com/assignments/158bvwxrfzp)):
 ## Módulo 4: Equações
 
 Utilizando o arquivo `modulo4.tex`
-([download aqui](https://raw.githubusercontent.com/lpoo/workshop-2014-09-20-latex/gh-pages/latex/modulo4.tex)
+([download aqui](modulo4.tex)
 ou [writeLaTeX](https://www.writelatex.com/assignments/157tvrvtktr)):
 
 - Adicione a equação de segundo grau na sua forma canônica como o exemplo de uma
@@ -215,12 +218,30 @@ ou procurando pelo título do documento no seu buscador favorito.
 
 ## Módulo 5: Tabela
 
-Teste os exemplos existentes em
-http://en.wikibooks.org/wiki/LaTeX/Tables#Basic_examples.
+Utilizando o arquivo `modulo5.tex`
+([download aqui](modulo5.tex)
+ou [writeLaTeX]()):
+
+- Construa a tabela representada no arquivo.
+
+  **Dica**: Utilize o ambiente `tabular`.
+- Adicione um título para a tabela.
+
+  **Dica**: Utilize o ambiente `table` e o comando `caption`.
+- Centralize a tabela.
+
+**Dica**: Vários exemplos encontram-se disponíveis em
+[http://en.wikibooks.org/wiki/LaTeX/Tables#Basic_examples](http://en.wikibooks.org/wiki/LaTeX/Tables#Basic_examples).
 
 ## Módulo 6: Figuras
 
-Para incluir imagens é preciso utilizar o pacote `graphicx`.
+- Adicione o cabeçalho em um arquivo chamado `modulo6.tex`.
+- Adicione o pacote `graphicx`.  Esse pacote é necessário para incluir imagens.
+- Adicione a figura abaixo.
 
-Teste os exemplos existentes em
-http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics#Including_graphics.
+  <img src="chick.png" alt="Figura a ser inserida no documento LaTeX">
+- Adicione uma legenda para a figura.
+- Centralize a figura.
+
+**Dica**: Vários exemplos encontram-se disponíveis em
+[http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics#Including_graphics](http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics#Including_graphics).
