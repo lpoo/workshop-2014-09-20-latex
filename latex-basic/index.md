@@ -220,7 +220,7 @@ ou procurando pelo título do documento no seu buscador favorito.
 
 Utilizando o arquivo `modulo5.tex`
 ([download aqui](modulo5.tex)
-ou [writeLaTeX]()):
+ou [writeLaTeX](https://www.writelatex.com/assignments/167fndwnxbd)):
 
 - Construa a tabela representada no arquivo.
 
